@@ -48,7 +48,7 @@ export default function MetricsCards({ metrics }: MetricsCardsProps) {
               <p className="text-2xl font-bold mt-2">{card.value}</p>
             </div>
             <div className={`${card.iconBg} p-3 rounded-lg`}>
-              <card.icon className="w-6 h-6" />
+              <card.icon className="w-6 h-6" />a
             </div>
           </div>
         </div>

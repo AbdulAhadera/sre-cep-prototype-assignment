@@ -85,7 +85,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-blue-600">Ahad Medical Store</h1>
+              <h1 className="text-2xl font-bold text-blue-600">Ahsan Shamim Medical Store</h1>
               <p className="text-sm text-gray-600 mt-0.5">Inventory & Sales Management System</p>
             </div>
             <div className="flex gap-2">

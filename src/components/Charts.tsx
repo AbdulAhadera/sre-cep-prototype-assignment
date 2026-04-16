@@ -44,6 +44,8 @@ export default function Charts({ medicines, sales }: ChartsProps) {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
       <div className="bg-white rounded-lg border border-gray-200 p-6">
         <h3 className="text-lg font-semibold text-gray-800 mb-4">Sales Over Time (Last 7 Days)</h3>
+        
+        
         {salesByDay.length > 0 ? (
           <div className="space-y-3">
             {salesByDay.map(([date, amount]) => (
@@ -63,6 +65,8 @@ export default function Charts({ medicines, sales }: ChartsProps) {
         ) : (
           <p className="text-gray-500 text-sm text-center py-8">No sales data available</p>
         )}
+
+
       </div>
 
       <div className="bg-white rounded-lg border border-gray-200 p-6">
